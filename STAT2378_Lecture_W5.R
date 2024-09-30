@@ -1,0 +1,5 @@
+getwd()
+install.packages(c("devtools", "roxygen2", "testthat","knitr"))
+library(devtools)
+has_devel()
+usethis::create_package("~/Desktop/Desktop_MacBook Air/Bachelor course/2024-Session 2/STAT1378_Coding and Communication in Statistics/STAT1378_R//praiseme")
